@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="layoutFlexboxForm.css">
+</head>
+
+<body>
+  <header>
+    <h2>Student form using semantic and layout with flexbox</h2>
+  </header>
+
+  <section>
+    <nav>
+      <h3>More about HTML</h3>
+      <ul>
+        <li><a href="https://www.w3schools.com/html/">w3schools</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/HTML">Wiki</a></li>
+        <li><a href="https://html.spec.whatwg.org/">html.spec</a></li>
+      </ul>
+    </nav>
+
+    <Div class=student>
+      <h1 style="text-align: center;">Student Form</h1>
+      <form>
+        <div class="formField">
+          <label class="formLable" for="firstName">First name :</label>
+          <input class="formInput" type="text" id="firstName" name="name" placeholder="Enter first Name" required>
+        </div>
+        <div class="formField">
+          <label class="formLable" for="lastName">Last name :</label>
+          <input class="formInput" type="text" id="lastName" name="lastname" placeholder="Enter last Name" required>
+        </div>
+        <div class="formField">
+          <label class="formLable" for="fatherName">Father name :</label>
+          <input class="formInput" type="text" id="fatherName" name="fname" placeholder="Enter father Name" required>
+        </div>
+        <div class="formField">
+          <label class="formLable" for="mothername">Mother name :</label>
+          <input class="formInput" type="text" id="mothername" name="mname" placeholder="Enter mother Name" required>
+        </div>
+        <div class="formField">
+          <label class="formLable" for="DOB">Date of Birth :</label>
+          <input class="formInput" type="date" id="DOB" name="dob">
+        </div>
+        <div class="formField">
+          <div class="formLable" >Gender :</div>
+          <label for='male'>Male</label>
+          <input type="radio" id="male" name="gender">
+          <label for='female'>Female</label>
+          <input type="radio" id="female" name="gender">
+          <label for='female'>Other</label>
+          <input type="radio" id="other" name="gender">
+        </div>
+        <div class="formField">
+          <div class="formLable" >Known Language:</div>
+          <label for="eng">English</label>
+          <input type="checkbox" id="eng" name="eng">
+          <label for="mar">Marathi</label>
+          <input type="checkbox" id="mar" name="mar">
+          <label for="hin">Hindi</label>
+          <input type="checkbox" id="hin" name="hin">
+        </div>
+        
+        <div class="formField">
+          <label class="formLable" for="mobielnum">Mobile Number :</label>
+          <input class="formInput" type="number" id="mobielnum" name="mobilenum" placeholder="Enter Mobile number"
+            required>
+        </div>
+
+        <div class="formField">
+          <label class="formLable" for="address">Address :</label>
+          <textarea class="formInput" rows="6" cols="25" id="address" name="address" placeholder="Enter address"
+            required></textarea>
+        </div>
+        <div class="formField">
+          <label class="formLable" for="dist">District :</label>
+          <input class="formInput" type="text" id="dist" name="district" placeholder="Enter District" required>
+        </div>
+        <div class="formField">
+          <label class="formLable" for="state">State :</label>
+          <input class="formInput" type="text" id="state" name="state" placeholder="Enter State" required>
+        </div>
+        <div class="formField">
+          <label class="formLable" for="country">Country :</label>
+          <input class="formInput" type="text" id="country" name="country" placeholder="Enter Country" required>
+        </div>
+        <div class="formField">
+          <label class="formLable" for="pin">Pin Code :</label>
+          <input class="formInput" type="number" id="pin" name="pincode" placeholder="Enter Pin Code" required>
+        </div>
+        <div class="formField"> 
+          <div class="formLable" >Course Applied for :</div>
+          <select class="form-dropdown text-field">
+            <option value="Science"> Science </option>
+            <option value="Commerce"> Commerce </option>
+            <option value="Arts"> Arts </option>
+          </select>
+        </div>
+        <div class="formField">
+          <label class="formLable" for="email">Email :</label>
+          <input class="formInput" type="email" id="email" name="email" placeholder="Enter e-mail" required>
+        </div>
+        <div class="formField">
+          <label class="formLable" for="pwd">Password :</label>
+          <input class="formInput" type="password" id="pwd" name="password" placeholder="Enter password" required>
+        </div>
+
+        <div class="formBtn" >
+          <input type="submit" value="Submit">&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="reset" value="reset">
+        </div>
+      </form>
+    </Div>
+
+    <aside>
+      <h3>Other Technology</h3>
+      <ul>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Bootstrap</li>
+      </ul>
+    </aside>
+  </section>
+
+  <footer>
+    <p> All Rights Reserved.</p>
+  </footer>
+
+</body>
+
+</html>
